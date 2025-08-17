@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram id="roadmap" name="Roadmap (Quarterly, 1 year)">
+    <mxGraphModel dx="3026" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h_q1" value="Q1: Foundation &amp; Design" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="40" y="30" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_q2" value="Q2: Pilot &amp; Expansion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="400" y="30" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_q3" value="Q3: Scale &amp; Migrate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="760" y="30" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h_q4" value="Q4: GA &amp; Decommission" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34495E;fontColor=#ffffff;strokeColor=#2C3E50;arcSize=8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="30" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ln_platform" value="Platform Engineering (Lakehouse)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;fontColor=#2C3E50;strokeColor=#BDC3C7;arcSize=6;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="100" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ln_govern" value="Governance, Security &amp;amp; Compliance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;fontColor=#2C3E50;strokeColor=#BDC3C7;arcSize=6;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="210" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ln_ingest" value="Integrations &amp;amp; Ingestion (CDC/Streaming)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;fontColor=#2C3E50;strokeColor=#BDC3C7;arcSize=6;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="320" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ln_domain" value="Domain Data Products&lt;div&gt;&amp;nbsp;(Fintech, Medical Admin (no PHI),&lt;/div&gt;&lt;div&gt;&amp;nbsp;HR, Inventory, Financial Reporting)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;fontColor=#2C3E50;strokeColor=#BDC3C7;arcSize=6;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="430" width="1670" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ln_bi" value="Self-Service Portal &amp;amp; BI / Semantic Layer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;fontColor=#2C3E50;strokeColor=#BDC3C7;arcSize=6;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="570" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ln_legacy" value="Legacy Coexistence &amp;amp; Decommission" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;fontColor=#2C3E50;strokeColor=#BDC3C7;arcSize=6;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="680" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ln_ai" value="AI &amp;amp; De-identification (PHI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECF0F1;fontColor=#2C3E50;strokeColor=#BDC3C7;arcSize=6;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="790" width="1670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="q1_p1" value="Select stack: S3/MinIO + Apache Iceberg + Catalog (Nessie) + Trino/Dremio + Airflow + Kafka/Debezium" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;fontColor=#ffffff;strokeColor=#0D5091;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="50" y="115" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q1_p2" value="SSO (Keycloak), RBAC, PHI masking baseline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;strokeColor=#736782;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="50" y="225" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q1_p3" value="Ingest DEV: landing zones, CDC PoC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;fontColor=#ffffff;strokeColor=#0D5091;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="50" y="335" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q1_p4" value="Domain boundaries, data contracts v0; program setup (CDO, PMO)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2D8F5D;fontColor=#ffffff;strokeColor=#1F6A44;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="50" y="455" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q1_p5" value="Portal skeleton; BI↔Trino/Dremio (dev)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;fontColor=#ffffff;strokeColor=#0D5091;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="50" y="575" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q1_p6" value="Legacy assessment; freeze new ETL in DWH" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F39C12;fontColor=#ffffff;strokeColor=#C87F0A;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="50" y="685" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q1_p7" value="De-ID MVP service (no med records in analytics)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;strokeColor=#736782;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="50" y="795" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q2_p1" value="CDC: core banking; batch HR &amp; Inventory; Pharma/OEM APIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;fontColor=#ffffff;strokeColor=#0D5091;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="410" y="115" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q2_p2" value="Catalog/Lineage (OpenMetadata) + DQ gates (Great Expectations)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;strokeColor=#736782;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="410" y="225" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q2_p3" value="Publish domains: Fintech, Medical Admin (no PHI). Top-10 KPIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2D8F5D;fontColor=#ffffff;strokeColor=#1F6A44;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="410" y="455" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q2_p4" value="Portal v1 (pilot), BI SSO/Secure datasets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;fontColor=#ffffff;strokeColor=#0D5091;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="410" y="575" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q2_p5" value="Backfill heavy reports; PowerBuilder freeze" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F39C12;fontColor=#ffffff;strokeColor=#C87F0A;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="410" y="685" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q2_p6" value="PHI de-id pipeline for allowed aggregates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;strokeColor=#736782;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="410" y="795" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q3_p1" value="Scale streaming (Kafka/Flink). Optional: ClickHouse fast marts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;fontColor=#ffffff;strokeColor=#0D5091;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="770" y="115" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q3_p2" value="Governance enforcement (RLS/CLS); Data contracts v1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;strokeColor=#736782;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="770" y="225" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q3_p3" value="Publish domains: HR, Inventory, Financial Reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2D8F5D;fontColor=#ffffff;strokeColor=#1F6A44;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="770" y="455" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q3_p4" value="Portal v2 (company-wide pilot); semantic KPIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;fontColor=#ffffff;strokeColor=#0D5091;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="770" y="575" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q3_p5" value="Migrate Camel flows; decommission parts of PowerBuilder" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F39C12;fontColor=#ffffff;strokeColor=#C87F0A;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="770" y="685" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q3_p6" value="AI enrichment (non-PHI); DS read curated" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;strokeColor=#736782;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="770" y="795" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q4_p1" value="GA: Platform &amp; Portal; domain ownership fully operational" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;fontColor=#ffffff;strokeColor=#0D5091;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="115" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q4_p2" value="Compliance sign-off, DR/BCP tests, cost guardrails" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;strokeColor=#736782;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="225" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q4_p3" value="Finalize domains; SLA/SLOs; incident playbooks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2D8F5D;fontColor=#ffffff;strokeColor=#1F6A44;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="455" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q4_p4" value="BI GA: SSO, semantic models, certified datasets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1061B0;fontColor=#ffffff;strokeColor=#0D5091;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="575" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q4_p5" value="Decommission majority of DWH ETL/Reports" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F39C12;fontColor=#ffffff;strokeColor=#C87F0A;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="685" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q4_p6" value="PHI governance steady-state; periodic audits" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8C8496;fontColor=#ffffff;strokeColor=#736782;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="795" width="320" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
